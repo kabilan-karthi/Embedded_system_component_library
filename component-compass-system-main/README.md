@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
+🔌 Embedded Lab Lending System
+A web-based platform for managing and tracking the lending of electronic components and lab equipment by students in an embedded systems laboratory.
 
-## Project info
+🎯 Project Overview
+This system simplifies how students borrow components from the lab by enabling:
 
-**URL**: https://lovable.dev/projects/73031765-c6fe-4f1c-9dac-21aee8e0a7b3
+Digital tracking of borrowed and returned items
 
-## How can I edit this code?
+Streamlined approval process for lab staff
 
-There are several ways of editing your application.
+Easy access to borrowing history for students
 
-**Use Lovable**
+Efficient inventory management
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/73031765-c6fe-4f1c-9dac-21aee8e0a7b3) and start prompting.
+🛠 Tech Stack
+Built using modern frontend technologies for a smooth and responsive experience:
 
-Changes made via Lovable will be committed automatically to this repo.
+⚡ Vite – Fast build tool and dev server
 
-**Use your preferred IDE**
+🔷 TypeScript – Static typing for better code quality
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+⚛️ React – Component-based user interface
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🧩 shadcn/ui – Accessible and reusable UI components
 
-Follow these steps:
+🎨 Tailwind CSS – Utility-first CSS framework for styling
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+🚀 Getting Started
+To run the project locally:
+
+Prerequisites
+Make sure you have Node.js and npm installed.
+(Recommended: Use nvm for managing Node versions.)
+
+Setup Instructions
+bash
+Copy
+Edit
+# 1. Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2. Navigate into the project directory
+cd embedded-lab-lending-system
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Start the development server
 npm run dev
-```
+🧠 Folder Structure
+bash
+Copy
+Edit
+src/
+├── components/     # Reusable UI elements
+├── pages/          # Main views like Dashboard, Borrow Form, etc.
+├── data/           # Static or mock data
+├── styles/         # Tailwind and custom styles
+├── App.tsx         # Root component
+└── main.tsx        # App entry point
+🌍 Deployment
+You can deploy this app using any platform that supports static frontend hosting:
 
-**Edit a file directly in GitHub**
+Vercel
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Netlify
 
-**Use GitHub Codespaces**
+GitHub Pages
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Cloudflare Pages
 
-## What technologies are used for this project?
+To prepare for deployment:
 
-This project is built with:
+bash
+Copy
+Edit
+npm run build
+Deploy the contents of the dist/ folder.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🧪 Features in Development
+✅ Student login and authentication
 
-## How can I deploy this project?
+✅ Borrow/Return form submission
 
-Simply open [Lovable](https://lovable.dev/projects/73031765-c6fe-4f1c-9dac-21aee8e0a7b3) and click on Share -> Publish.
+✅ Component availability tracker
 
-## Can I connect a custom domain to my Lovable project?
+🔄 Admin dashboard for approval & inventory control (coming soon)
 
-Yes it is!
+🔄 Email/SMS notifications for due dates (optional)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🤝 Contributing
+This is a collaborative academic project. Contributions, suggestions, and improvements are welcome!
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+📄 License
+Licensed under the MIT License.
